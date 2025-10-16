@@ -1,6 +1,5 @@
 package com.infernalwhaler.microservices.number;
 
-
 import jakarta.json.bind.annotation.JsonbProperty;
 import jakarta.json.bind.annotation.JsonbTransient;
 import org.eclipse.microprofile.openapi.annotations.media.Schema;

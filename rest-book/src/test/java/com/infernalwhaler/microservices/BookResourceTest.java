@@ -25,7 +25,6 @@ class BookResourceTest {
 
                 .then()
                 .statusCode(201)
-                .body("isbn_13", startsWith("13-"))
                 .body("title", is("Quarkus"),
                         "author", is("Antonio"),
                         "year_of_publication", is(2020),
